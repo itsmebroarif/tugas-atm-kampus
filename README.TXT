@@ -7,5 +7,5 @@ all they need to know. The comments should usually include at least:
 PROJECT TITLE:  Automatic Teller Machine
 PURPOSE OF PROJECT: College Teamwork Space
 VERSION or DATE: 1.0.0
-AUTHORS: Kelompok 4
+AUTHORS: Kelompok 4 (Alfiana, Galuh, Arif, Fiko, Rizki)
 
