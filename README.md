@@ -24,8 +24,8 @@ Pada aplikasi ini, kita akan menggunakan struktur switch case untuk mengatur alu
 |-----------|----------------------|---------------------------|
 | Alfiana   | [NPM]                | [Email Alfiana]           |
 | Galuh     | [NPM]                | [Email Galuh]             |
-| Arif      | [NPM]                | [Email Arif]              |
-| Fiko      | [NPM]                | [Email Fiko]              |
+| Arif Permana Putrasuryana      | 202243502044                | aripstrike@gmail.com              |
+| Fiko Dwi Nugraha      | [202243502041                | fikodwinugraho@gmail.com              |
 | Rizki     | [NPM]                | [Email Rizki]             |
 | Bintang   | [NPM]                | [Email Bintang]           |
 
