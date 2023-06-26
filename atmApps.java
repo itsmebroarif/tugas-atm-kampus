@@ -1,8 +1,10 @@
 // Alfiana
+// Import komponent untuk bagian bagian yang kita butuhkan didalam aplikasi seperti contoh arrayList Dan Juga Scanner
 
-// Java code untuk mendemontrasikan konsep
+// Fungsi Dari arrayList = menambah data baru secara dinamis tanpa harus menentukan ukurannya di awal
+
+// Fungsi dari Scanner = kelas untuk melakukan masukan dari keyboard berbasis DOS atau Disk operating system yang biasa digunakan pada komputer lawas / sistem yang berbentuk Cli (command line interface)/ terminal
 import java.util.ArrayList;
-// larik arrayList
 import java.util.Scanner;
 
 // Function public class hanya dapat bisa dilihat oleh user
@@ -49,8 +51,7 @@ public class atmApps {
     }
 
     // Fiko
-
-    // Function untuk menampilkan menu
+    // Function untuk menampilkan menu didalam aplikasi, disini kita bisa memilih menu yang ingin kita tuju dengan menggunakan switch case. fitur ini digunakan agar dapat merekayasa seperti sistem atm yang asli
     private static void showMenu(Scanner scanner) {
         int choice;
         do {
@@ -102,15 +103,13 @@ public class atmApps {
     }
 
     // Rizki
-
-    // Function menampilkan menampilkan saldo
+    // Function menampilkan menampilkan saldo didalam aplikasi jika saldo bertambah atau berkurang, maka akan tampil didalam function ini
     private static void checkBalance() {
         System.out.println("Saldo Anda saat ini: RP. " + balance);
     }
 
     // Arif
-
-    // Function untuk menginput data
+    // Function untuk menginput data untuk pemarikan dana, jika saldo mencukupi maka angka akan berkurang jika tidak maka akan ada peringatan jika saldo yang ingin ditarik tidak cukup
     private static void withdraw(Scanner scanner) {
         System.out.print("Masukkan jumlah uang yang ingin ditarik: RP. ");
         double amount = scanner.nextDouble();
@@ -127,8 +126,7 @@ public class atmApps {
     }
 
     // Bintang
-
-    // Function menginput data
+    // Function menginput data angka yang ingin di setor kedalam penyimpanan uang
     private static void deposit(Scanner scanner) {
         System.out.print("Masukkan jumlah uang yang ingin disetor: RP. ");
         double amount = scanner.nextDouble();
@@ -138,7 +136,8 @@ public class atmApps {
         System.out.println("Setor tunai berhasil.");
     }
 
-    // Function menampilkan riwayat transaksi
+    // Galuh
+    // Function menampilkan riwayat transaksi penarikan dan penyetoran dana bisa dilihat disini karena selama kita memakai aplikasi ini kita mempunyai penyimpanan untuk melihat kegiatan transaksi apa saja yang sudah kita kerjakan
     private static void showTransactionHistory() {
         System.out.println("Riwayat Transaksi:");
         for (double transaction : transactionHistory) {
